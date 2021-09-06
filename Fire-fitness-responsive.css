@@ -1,0 +1,45 @@
+@media  screen and (max-width: 768px) {
+    body{
+        background: black;
+    }
+    html{
+        font-size: 60%;
+    }
+    nav{
+        flex-direction: column;
+        height: 135px;
+    }
+    nav ul{
+        flex-direction: column;
+        line-height: 17px;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .logo img{
+        margin: 8px 0;
+    }
+    .container1{
+        justify-content: center;
+        margin: 1.5rem auto;
+    }
+    .container2{
+        justify-content: center;
+        margin: 1.5rem auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 460px) {
+    html{
+        font-size: 40%;
+    }
+    @media screen and (max-width: 370px) {
+        html{
+            font-size: 30%;
+        }
+        
+}
