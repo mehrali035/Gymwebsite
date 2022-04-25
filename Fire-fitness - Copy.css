@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('girl11.jpg')no-repeat center center/cover;
+ }
+header {
+    background-color: rgb(20, 19, 19);
+}
+html{
+    font-size: 80%;
+}
+
+nav {
+    display: flex;
+    height: 6rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 3.5rem;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 .8rem;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    cursor: pointer;
+    color: gray;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0 2.5rem;
+    width: 5.0rem;
+    cursor: pointer;
+    clip-path: circle();
+ }
+ .logo div{
+     color: white;
+ }
+
+
+/* container1 css */
+.container1{
+    display: flex;
+    width: 48.2rem;
+    height: 24.8rem;
+    padding: 2.5rem 0;
+    border: .2rem solid #736868;
+    border-radius: 3.5rem;
+    margin: 9.6rem 1.0rem;
+}
+.box1 {
+    width: 29.2rem;
+    height: 32.2rem;
+    padding: 0 10.0rem;
+    margin: 0 3.0rem;
+}
+.box1 h1{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+    font-size: 2rem;
+}
+.box1 li{
+    line-height: 3.0rem;
+    color: white;
+    font-size: 1.2rem;
+ }
+
+ .container2{
+    border: .2rem solid #736868;
+    border-radius: 3.5rem;
+    height: 26.5rem;
+    width: 41.0rem;
+    margin: 3.3rem 1.2rem;
+    padding: 2rem 3rem;
+  }
+ .container2 h1{
+     text-align: center;
+     color: white;
+     height: 6rem;
+ }
+ .form-group input{
+     text-align: center;
+     display: block;
+     width: 30.5rem;
+     height: 1.5rem;
+     margin: 1.5rem auto;
+     padding: .3rem 0;
+     border-radius: 1.5rem;
+     border: .2rem solid black;
+ }
+ .container2 button{
+     display: block;     
+     background-color: white;
+     width: 30.5rem ;
+     margin: 1rem auto;
+     border-radius: 1.5rem;
+     border: .2rem solid black;
+     padding: .2rem 0;
+ }
+ .container2 button:hover{
+     background-color: rgb(65, 59, 59);
+     cursor: pointer;
+ }
+
+/* footer css */
+.End{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
